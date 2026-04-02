@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{aa3c3fdb-b54f-4b9b-9b70-2d82e2261e88}">
+		<property name="assetPath">
+			<value>CatastrophyCacaphony_115BPM/bgm_CatastrophyCacaphony_115_44_Fill2.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.1739002267573699</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{481a5c6a-66ce-43fc-8a57-f34b4ce85db6}</destination>
+		</relationship>
+	</object>
+</objects>

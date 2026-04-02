@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{0e6eeda3-7b0d-4853-8f92-df9a5c2e920c}">
+		<property name="assetPath">
+			<value>FairyForrest_100bpm/FairyForest_part4_Main_loopAB_100BPM.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>57.600000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{481a5c6a-66ce-43fc-8a57-f34b4ce85db6}</destination>
+		</relationship>
+	</object>
+</objects>

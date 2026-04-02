@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{67e4d83a-0c2b-4f80-a01f-0efc1307d4e9}">
+		<property name="assetPath">
+			<value>Music expansion/music_lvl_01_pad_chords.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>36.226416666666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{481a5c6a-66ce-43fc-8a57-f34b4ce85db6}</destination>
+		</relationship>
+	</object>
+</objects>
