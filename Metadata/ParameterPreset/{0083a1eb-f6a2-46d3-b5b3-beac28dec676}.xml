@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{0083a1eb-f6a2-46d3-b5b3-beac28dec676}">
+		<property name="name">
+			<value>VO Sidechain</value>
+		</property>
+		<relationship name="folder">
+			<destination>{86df7a1c-2778-46dd-8d9d-0a8ed4001a0c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{43a280cd-c159-49ff-9668-bd07e4d3cd0d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{43a280cd-c159-49ff-9668-bd07e4d3cd0d}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
