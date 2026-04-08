@@ -18,5 +18,41 @@
 		<property name="initialValue">
 			<value>0</value>
 		</property>
+		<relationship name="automators">
+			<destination>{e92a3510-ecf8-4e58-910d-01b48d86e3e5}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{e92a3510-ecf8-4e58-910d-01b48d86e3e5}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{cba2cd7c-5fbc-4108-ae67-189ee1f460ff}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{cba2cd7c-5fbc-4108-ae67-189ee1f460ff}">
+		<relationship name="parameter">
+			<destination>{27915726-6d22-4d1b-a544-f15dc1668944}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{e443aa64-72bb-4e1c-b389-01c0f865ed5a}</destination>
+			<destination>{fa241f5d-7b5d-49b6-8678-bb171f2910f7}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{e443aa64-72bb-4e1c-b389-01c0f865ed5a}">
+		<property name="position">
+			<value>0.024011299435028249</value>
+		</property>
+		<property name="value">
+			<value>9</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{fa241f5d-7b5d-49b6-8678-bb171f2910f7}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
 	</object>
 </objects>
