@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{2ac1ae64-f3db-4cb8-bc1f-42c7f9dff1ca}">
+		<property name="name">
+			<value>Läxa</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b67e4c45-d868-4195-9a73-bb9cf6bd4520}</destination>
+		</relationship>
+	</object>
+</objects>
