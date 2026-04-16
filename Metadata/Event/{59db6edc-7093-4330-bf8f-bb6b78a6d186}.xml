@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{59db6edc-7093-4330-bf8f-bb6b78a6d186}">
+		<property name="note">
+			<value>3D event med distance parimeter</value>
+		</property>
 		<property name="name">
 			<value>3D-event</value>
 		</property>
@@ -64,7 +67,7 @@
 			<destination>{29e30d9c-6d34-4e77-b97e-26cb12d3626a}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{59148548-f860-488c-beeb-3a976fb481d6}</destination>
+			<destination>{37188998-c9ab-4009-a5e7-3c15c2ecc8bb}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3bb09d34-201e-4d5c-a615-b62062e572fb}" />
@@ -212,7 +215,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c921aed7-6599-4974-83a8-d2672ec6e917}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Sea Theme</value>
 		</property>
 		<relationship name="automators">
 			<destination>{6ab819d4-356a-4944-846d-647b055b80ec}</destination>

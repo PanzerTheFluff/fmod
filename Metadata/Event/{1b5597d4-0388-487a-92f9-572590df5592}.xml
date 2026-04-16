@@ -87,7 +87,7 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{658e15a0-5ea8-4006-81f3-f06c16132871}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{59148548-f860-488c-beeb-3a976fb481d6}</destination>
+			<destination>{bbac1006-3445-4d10-8af9-648cc6c3442a}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{27084dec-69d5-49f5-9649-68468757844f}">

@@ -86,7 +86,7 @@ https://www.fmod.com/docs/studio/authoring-events.html#automation-and-modulation
 			<destination>{2d7d443d-011a-4039-a5be-3fb949c63540}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{59148548-f860-488c-beeb-3a976fb481d6}</destination>
+			<destination>{0208a7fa-faa3-4d18-ae58-51950079fb1d}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{39a66198-b7c0-4b5e-af69-cd11cff24c0e}">
@@ -188,7 +188,6 @@ https://www.fmod.com/docs/studio/authoring-events.html#automation-and-modulation
 		<relationship name="effects">
 			<destination>{9d77e18b-1399-44af-b0e6-50e62e5b58d1}</destination>
 			<destination>{59df97fb-ef64-4eef-925f-f734a7e2f63b}</destination>
-			<destination>{f4d110c6-242f-4e77-8122-92f2b895b6db}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{34565b77-c432-43ea-9a96-f45ae093e511}" />
@@ -230,14 +229,6 @@ https://www.fmod.com/docs/studio/authoring-events.html#automation-and-modulation
 		</property>
 		<relationship name="preset">
 			<destination>{8a758d04-76fc-4206-aabe-8ef1cb138427}</destination>
-		</relationship>
-	</object>
-	<object class="ProxyEffect" id="{f4d110c6-242f-4e77-8122-92f2b895b6db}">
-		<property name="inputFormat">
-			<value>2</value>
-		</property>
-		<relationship name="preset">
-			<destination>{eb6d0ac8-1f59-4170-ae87-84f82af9b40d}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationCurve" id="{173a89b0-341b-4117-a1e1-9f8bda9c5292}">

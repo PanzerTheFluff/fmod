@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{37188998-c9ab-4009-a5e7-3c15c2ecc8bb}">
+		<property name="name">
+			<value>Themes</value>
+		</property>
+		<relationship name="automators">
+			<destination>{2fab6fbb-7f7d-4638-813e-151b12176a60}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{7a4afd2a-aeae-4ee9-b5c9-c0aee7ebb9dd}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{5c0004e8-508a-4923-8dc8-3c5e8e767d19}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{195e7704-9f16-452f-afc8-6e16108f2c26}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{2fab6fbb-7f7d-4638-813e-151b12176a60}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+	</object>
+	<object class="MixerBusEffectChain" id="{7a4afd2a-aeae-4ee9-b5c9-c0aee7ebb9dd}">
+		<relationship name="effects">
+			<destination>{3c1cfdd7-a12a-4a62-88e6-ae4be6c9a021}</destination>
+			<destination>{777bc8e2-f54f-4bdf-b8d1-14fd4b941db1}</destination>
+			<destination>{1259c2e4-3375-47ea-8527-aee952c10068}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{5c0004e8-508a-4923-8dc8-3c5e8e767d19}" />
+	<object class="MixerBusFader" id="{3c1cfdd7-a12a-4a62-88e6-ae4be6c9a021}" />
+	<object class="SFXReverbEffect" id="{777bc8e2-f54f-4bdf-b8d1-14fd4b941db1}">
+		<property name="wetLevel">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{1259c2e4-3375-47ea-8527-aee952c10068}">
+		<property name="threshold">
+			<value>-17</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{af182ce5-f12b-4a5c-9b6c-f398247c9fc4}</destination>
+		</relationship>
+	</object>
+</objects>

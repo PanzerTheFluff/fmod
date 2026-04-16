@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c41d13fe-6424-477c-af92-d6f5180cafaf}">
+		<property name="note">
+			<value>Ett vertikalt event (Använder single sound)</value>
+		</property>
 		<property name="name">
 			<value>Vertical event</value>
 		</property>
@@ -63,7 +66,7 @@
 			<destination>{8ca8c61c-565c-4abd-b958-7134a2eccbda}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{59148548-f860-488c-beeb-3a976fb481d6}</destination>
+			<destination>{37188998-c9ab-4009-a5e7-3c15c2ecc8bb}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{dd7648cb-2ae5-4386-b46a-c3bf965ffc36}" />
@@ -175,7 +178,7 @@
 	<object class="TransitionDestinationSound" id="{38fa0929-82ad-4379-9b8c-5df1bab18be0}" />
 	<object class="EventMixerGroup" id="{5dfaac75-69ea-42aa-b024-edfb21bf8a0e}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>bells</value>
 		</property>
 		<relationship name="automators">
 			<destination>{940379c0-9c80-42b3-ab05-83786c23dca3}</destination>
@@ -211,7 +214,7 @@
 	<object class="TransitionDestinationSound" id="{4caf7cd3-4cb1-4cf3-9704-6d556b05dc3c}" />
 	<object class="EventMixerGroup" id="{e76bb5f8-7a41-46ad-ae08-f8665b3b600b}">
 		<property name="name">
-			<value>Audio 2</value>
+			<value>flute</value>
 		</property>
 		<relationship name="automators">
 			<destination>{c2e42093-166a-4dc9-8087-c93751bd98f8}</destination>
@@ -250,7 +253,7 @@
 	<object class="TransitionDestinationSound" id="{9598e2bc-497f-4ea5-abf7-4db47183f2fb}" />
 	<object class="EventMixerGroup" id="{72cb3525-d357-4826-83be-aed7e2209469}">
 		<property name="name">
-			<value>Audio 3</value>
+			<value>strings</value>
 		</property>
 		<relationship name="automators">
 			<destination>{03d2b731-512c-4cf2-878b-1c7ec8a7fae2}</destination>

@@ -114,7 +114,7 @@ Rain recordings provided by Xue Qiao of BB Studio, Chongqing Qiaoya Music and Cu
 			<destination>{bb443665-7e56-407a-b9ec-a4e36b5e5cd6}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{59148548-f860-488c-beeb-3a976fb481d6}</destination>
+			<destination>{bbac1006-3445-4d10-8af9-648cc6c3442a}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d2ab7a70-6b86-42a9-90ac-c1254211d209}">

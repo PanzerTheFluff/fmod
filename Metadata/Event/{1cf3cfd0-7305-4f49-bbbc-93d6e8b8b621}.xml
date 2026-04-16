@@ -83,7 +83,7 @@ Weapon sounds courtesy of Frank Bry at The Recordist.</value>
 			<destination>{cedeff86-90d1-4a06-9280-c8ca4a674009}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{59148548-f860-488c-beeb-3a976fb481d6}</destination>
+			<destination>{fbf6de11-4e42-40f9-a594-20455552e322}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{f42f8184-9e67-4063-945b-322a45edc967}" />
@@ -220,7 +220,6 @@ Weapon sounds courtesy of Frank Bry at The Recordist.</value>
 		<relationship name="effects">
 			<destination>{be7f4fef-1bd8-4d7d-894c-f790443314b0}</destination>
 			<destination>{bd882b66-0b54-465b-89ee-32aace34356b}</destination>
-			<destination>{94dc1768-7cf4-4ee7-82be-ee5079c320c8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1a9d8e2e-0f83-46e2-84b2-983fd784eb8f}" />
@@ -340,14 +339,6 @@ Weapon sounds courtesy of Frank Bry at The Recordist.</value>
 		</property>
 		<relationship name="preset">
 			<destination>{8a758d04-76fc-4206-aabe-8ef1cb138427}</destination>
-		</relationship>
-	</object>
-	<object class="ProxyEffect" id="{94dc1768-7cf4-4ee7-82be-ee5079c320c8}">
-		<property name="inputFormat">
-			<value>2</value>
-		</property>
-		<relationship name="preset">
-			<destination>{eb6d0ac8-1f59-4170-ae87-84f82af9b40d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{2dfe4064-bfdb-48c0-b355-1d9431e232b8}" />

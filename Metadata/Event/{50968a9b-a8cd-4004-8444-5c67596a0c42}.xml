@@ -111,7 +111,7 @@ Explosion samples by Michel Baradari available at https://opengameart.org/conten
 			<destination>{dab2cb02-685c-4520-837b-b4828ff4b4ef}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{59148548-f860-488c-beeb-3a976fb481d6}</destination>
+			<destination>{fbf6de11-4e42-40f9-a594-20455552e322}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{9b7b0f83-ec78-49e6-bca5-4c429e1f99f8}">
@@ -464,7 +464,6 @@ Explosion samples by Michel Baradari available at https://opengameart.org/conten
 		<relationship name="effects">
 			<destination>{377a06a9-d747-4f2b-9d9c-d3a3b515f2c5}</destination>
 			<destination>{e2a596ea-fae7-4461-94cb-f6e15443734a}</destination>
-			<destination>{827b2b59-b838-45f9-b420-1a1025a04f55}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f590191c-2f07-45c2-9494-8ed4a46b2b45}" />
@@ -631,14 +630,6 @@ Explosion samples by Michel Baradari available at https://opengameart.org/conten
 		</property>
 		<relationship name="automators">
 			<destination>{7169bcd8-0806-472a-9aa8-d5e3c3d6c913}</destination>
-		</relationship>
-	</object>
-	<object class="ProxyEffect" id="{827b2b59-b838-45f9-b420-1a1025a04f55}">
-		<property name="inputFormat">
-			<value>2</value>
-		</property>
-		<relationship name="preset">
-			<destination>{eb6d0ac8-1f59-4170-ae87-84f82af9b40d}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationCurve" id="{97f82de9-c2be-4b60-a8ec-4eb03e5aac9e}">

@@ -86,7 +86,7 @@ https://soundcloud.com/nasa</value>
 			<destination>{1d4bbe5d-5c47-4241-9186-1a8cbe4e2af1}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{59148548-f860-488c-beeb-3a976fb481d6}</destination>
+			<destination>{fbf6de11-4e42-40f9-a594-20455552e322}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{edf1866d-dba8-466d-805a-405db353fbdb}" />

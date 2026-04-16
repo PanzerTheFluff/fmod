@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{96f35c19-5f05-4514-bb1a-1a9674c400a1}">
+		<property name="note">
+			<value>Ett horisonellt event + fmod studio logic track + egen definerad parameter</value>
+		</property>
 		<property name="name">
-			<value>Horizontal event</value>
+			<value>Horisonellt event</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -64,7 +67,7 @@
 			<destination>{d3b92831-c9c6-407b-b542-c07c936badbb}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{59148548-f860-488c-beeb-3a976fb481d6}</destination>
+			<destination>{37188998-c9ab-4009-a5e7-3c15c2ecc8bb}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{cc6a2113-f91f-497d-9508-578f77217463}" />
@@ -190,7 +193,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{ffb9538e-58d3-4274-99ee-e7ea2906a232}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Main</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{fe811bc3-87e2-437e-825f-9344dddb5324}</destination>

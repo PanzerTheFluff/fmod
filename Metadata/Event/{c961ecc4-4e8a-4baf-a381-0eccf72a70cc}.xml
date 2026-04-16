@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c961ecc4-4e8a-4baf-a381-0eccf72a70cc}">
+		<property name="note">
+			<value>Nested event + Pitch change</value>
+		</property>
 		<property name="name">
-			<value>Nested even</value>
+			<value>Club (pausing)</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -70,7 +73,7 @@
 			<destination>{29d192f7-c116-4bec-9329-2d2134b93731}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{59148548-f860-488c-beeb-3a976fb481d6}</destination>
+			<destination>{bbac1006-3445-4d10-8af9-648cc6c3442a}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3b6df596-bd8f-4cee-ae8c-133802ec73f5}" />

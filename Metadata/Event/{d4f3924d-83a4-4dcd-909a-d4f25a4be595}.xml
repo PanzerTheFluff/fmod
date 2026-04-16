@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d4f3924d-83a4-4dcd-909a-d4f25a4be595}">
+		<property name="note">
+			<value>Stingers i samma event</value>
+		</property>
 		<property name="name">
 			<value>Stinger (final)</value>
 		</property>
@@ -54,7 +57,7 @@
 			<destination>{9d5c4f63-e0f1-4f4e-b071-f89c18c52193}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{59148548-f860-488c-beeb-3a976fb481d6}</destination>
+			<destination>{bf8e3c59-73b4-436e-9134-e37e90cd6c84}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{0c984db0-c726-4fe5-a21b-f09ec660194d}" />

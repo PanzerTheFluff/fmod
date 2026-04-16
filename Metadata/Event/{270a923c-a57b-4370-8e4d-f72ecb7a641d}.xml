@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{270a923c-a57b-4370-8e4d-f72ecb7a641d}">
+		<property name="note">
+			<value>Positiv Stinger</value>
+		</property>
 		<property name="name">
 			<value>Stinger A</value>
 		</property>
@@ -53,7 +56,7 @@
 			<destination>{0c2b7c4b-33b4-413a-88e0-94a676cd36d7}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{59148548-f860-488c-beeb-3a976fb481d6}</destination>
+			<destination>{af4d5755-4678-4033-93e9-0d24790e28e1}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{8dbf8714-2286-4386-9b4f-5f62731e384d}" />
@@ -80,8 +83,13 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{d88cabfa-e1bd-4672-ae3e-2827dc022019}">
+		<property name="playbackMode">
+			<value>1</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{039a37a1-9e70-49c0-bfe4-5aedc20a8355}</destination>
+			<destination>{38035368-5914-43ef-b507-5a8eaf6105db}</destination>
+			<destination>{be9fabf1-deda-45c7-af7b-2fe6e22b8fab}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{4143f633-9dcd-40bd-8668-d070a0690bdd}">
@@ -99,6 +107,22 @@
 	<object class="SingleSound" id="{039a37a1-9e70-49c0-bfe4-5aedc20a8355}">
 		<relationship name="audioFile">
 			<destination>{c90f8085-fb35-45d9-81cf-b5dae544797f}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{38035368-5914-43ef-b507-5a8eaf6105db}">
+		<property name="pitch">
+			<value>7</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{b41f37e1-ed6b-45b6-bfff-b83d719fabc7}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{be9fabf1-deda-45c7-af7b-2fe6e22b8fab}">
+		<property name="pitch">
+			<value>1</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{377582db-3475-415d-b639-c8c2098b07a5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{5c54bdd2-8810-481f-8ac1-424b5cfb7b63}" />

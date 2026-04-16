@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{9563962e-ce42-4800-a3a0-22f28cab4a94}">
 		<property name="name">
-			<value>Pausing test)</value>
+			<value>outdoors testing</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -67,7 +67,7 @@
 			<destination>{44a30163-c07d-4349-ae65-f59bbe0a4422}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{59148548-f860-488c-beeb-3a976fb481d6}</destination>
+			<destination>{bbac1006-3445-4d10-8af9-648cc6c3442a}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{b25090b7-d2ca-4f33-b7ce-0cbd7480b2d6}" />

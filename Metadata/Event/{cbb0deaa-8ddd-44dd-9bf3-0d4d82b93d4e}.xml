@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{cbb0deaa-8ddd-44dd-9bf3-0d4d82b93d4e}">
 		<property name="name">
-			<value>Nested event (paused)</value>
+			<value>Club (paused)</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -59,7 +59,7 @@
 			<destination>{39c27ffa-315a-452c-823b-135fd27c4346}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{59148548-f860-488c-beeb-3a976fb481d6}</destination>
+			<destination>{bbac1006-3445-4d10-8af9-648cc6c3442a}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{f65d34c9-e196-4ef5-a643-27d01268335f}" />
